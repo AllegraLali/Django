@@ -1,0 +1,12 @@
+<html>
+    <head><title>Annonces</title></head>
+    <body>
+        <h1>Annonces !</h1> 
+        <p>Voici les différentes annonces :<p>
+        <ul>
+            {% for list in lists %}
+            <li>{{list.title}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
