@@ -2,11 +2,9 @@
 
 {% block content %}
 
-<h1>Contactez nous</h1> 
+<h1>Créer un nouvelle Annonce</h1>
 
-<p>Nous sommes là pour vous aider.</p>
-
-<form action="" method="post" novalidate>
+<form action="" method="post">
     {% csrf_token %}
     {{form.as_p}}
     <input type="submit" value="Envoyer">

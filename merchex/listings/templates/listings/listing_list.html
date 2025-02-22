@@ -4,6 +4,8 @@
 
 <h1>Liste d'annonces !</h1> 
 
+<a href="{% url 'listing-create' %}">Créer un nouvelle Annonce</a>
+
 <ul>
     {% for listing in listings %}
     <li>
